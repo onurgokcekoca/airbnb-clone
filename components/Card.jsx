@@ -9,6 +9,7 @@ function Card({ item }) {
                     src={img}
                     layout="fill"
                     className=' rounded-lg '
+                    alt={location}
                 />
             </div>
 
