@@ -6,14 +6,13 @@ function Header() {
         <header className='sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md p-5 md:px-10'>
 
             {/* Left */}
-            <div className='relative flex items-center h-8 md:h-10  my-auto cursor-pointer '>
+            <div className='relative flex items-center h-8 md:h-10  my-auto cursor-pointer'>
                 <Image
                     src="https://links.papareact.com/qd3"
                     layout="fill"
                     objectFit='contain'
                     objectPosition="left"
                     alt='header'
-
                 />
             </div>
 
@@ -24,7 +23,7 @@ function Header() {
             </div>
 
             {/* Right */}
-            <div className='flex items-center space-x-4 justify-end text-gray-500 '>
+            <div className='flex items-center space-x-4 justify-end text-gray-500'>
                 <p className='hidden lg:inline cursor-pointer '>Become a host</p>
                 <GlobeAltIcon className='hidden h-6 cursor-pointer md:inline ' />
                 <div className='flex items-center space-x-2 p-2 rounded-full border-2'>
